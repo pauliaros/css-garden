@@ -1,1 +1,101 @@
-/* Agrega aquí tus estilos*/
+
+
+*{
+	font-family: 'Din', sans-serif;
+}
+
+
+body{
+	background-image: url(../img/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #82E0AA;
+}
+
+
+h1{
+	font-family: "Futura", sans-serif;
+	text-transform: uppercase;
+	color: #fff;	
+	font-size: 70px;
+	text-align: center;
+	margin: 70px;
+	text-shadow: #797D7F;
+}
+ 
+h2{
+	font-family: "Din", sans-serif;
+	color: #000000;	
+	font-size: 30px;
+	text-align: center;
+}
+
+p  {
+	font-family: "Futura", sans-serif;
+	color: #797D7F;	
+	font-size: 16px;
+	text-align: center;
+}
+
+
+.preamble p{
+
+	font-size: 12;
+	text-align: center;
+	color: #797D7F;
+						
+}
+
+.preamble,
+.explanation,
+.participation,
+.benefits,
+.requirements,
+.sidebar {
+    padding: 15px;
+    margin: 15px;
+    background:#ABEBC6;
+}
+ a {
+ 	color: #8E44AD;
+ }
+
+
+.preamble,
+.explanation,
+.participation,
+.benefits,
+.requirements,
+{
+	text-align: center;
+}
+
+footer{
+	text-align: center;
+	font-size: 30px;
+	color: #F1C40F
+
+}
+
+li {
+	color: #E74C3C;
+}
+
+
+
+#design-selection{
+	width: 40%;	
+	float: left;
+	display: block;
+}
+
+#design-archives{
+	width: 30%;				
+	float: left;
+    display: block;	
+}
+
+#zen-resources{	
+	float: left;
+    display: block;	
+}
